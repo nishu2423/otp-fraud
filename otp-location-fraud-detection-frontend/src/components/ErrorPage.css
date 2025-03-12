@@ -1,0 +1,24 @@
+
+  .error-page-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .error-page-container h2 {
+    color: #ff4d4d;
+  }
+  
+  .error-page-container p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Dark Mode */
+  .error-page-container.dark h2 {
+    color: #ff6666;
+  }
+  
+  .error-page-container.dark p {
+    color: #ddd;
+  }
