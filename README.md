@@ -29,9 +29,8 @@ A secure transaction verification system combining OTP (One-Time Password) with 
 
 
 ## Installation
-Clone the repository:
-git clone https://github.com/yourusername/otp-verification-system.git
-cd otp-verification-system
+Clone the repository:  
+git clone https://github.com/nishu2423/otp-verification-system.git  
 
 ## Install dependencies:
 npm install
@@ -39,11 +38,10 @@ npm install
 ## Configure environment variables:
 env
 # .env file
-MONGODB_URI=your_mongodb_connection_string
-EMAIL_USER=your_gmail_address
-EMAIL_PASS=your_gmail_app_password
-JWT_SECRET=your_jwt_secret_key
-Start the server:
+MONGODB_URI=your_mongodb_connection_string  
+EMAIL_USER=your_gmail_address  
+EMAIL_PASS=your_gmail_app_password  
+JWT_SECRET=your_jwt_secret_key  
 
-bash
+## Start the server:
 npm start
